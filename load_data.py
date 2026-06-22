@@ -6,7 +6,7 @@ import sqlite3
 import pandas as pd
 from pathlib import Path
 
-EXCEL_PATH = Path(__file__).parent / "结构化财务数据库.xlsx"
+EXCEL_PATH = Path(__file__).parent / "finance_data.xlsx"
 DB_PATH = Path(__file__).parent / "finance.db"
 
 # Sheet 名 -> SQLite 表名 映射
